@@ -98,8 +98,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ---
 
 ## **Acknowledgments**
-- Dataset provided by [dataset source, e.g., Kaggle/OASIS](#).
+- Dataset provided by [https://huggingface.co/datasets/Falah/Alzheimer_MRI](#).
 - Model architecture inspired by **VGG16** and transfer learning techniques.
-- References:
-  - [Keras Applications Documentation](https://keras.io/api/applications/)
-  - [TensorFlow Tutorials](https://www.tensorflow.org/tutorials)
