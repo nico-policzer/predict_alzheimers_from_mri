@@ -7,11 +7,6 @@ This project focuses on building a deep learning model to classify MRI scans int
 
 Medical imaging is a critical domain for applying deep learning, particularly for analyzing MRI scans. This project implements a **convolutional neural network (CNN)** using a pretrained **VGG16** model to classify MRI scans into four classes, enhancing the accuracy and efficiency of disease detection.
 
-Key features include:
-- Transfer learning with the VGG16 model.
-- Data preprocessing and augmentation to standardize and enhance the dataset.
-- Regularization techniques to reduce overfitting and improve model generalization.
-
 ---
 
 ## **Key Features**
@@ -19,7 +14,7 @@ Key features include:
   - VGG16 pretrained on ImageNet as the base model.
   - Custom dense head with Dropout and L2 regularization to improve performance.
 - **Data Preprocessing**:
-  - MRI scans normalized and resized to match VGG16 input requirements.
+  - MRI scans normalized to match VGG16 input requirements.
   - Augmentation applied to simulate real-world variability (brightness shifts, rotations, zoom).
 - **Evaluation Metrics**:
   - Accuracy, precision, recall, F1-score, and confusion matrix.
@@ -38,8 +33,8 @@ Key features include:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/mri-classification.git
-   cd mri-classification
+   git clone https://github.com/nico-policzer/predict_alzheimers_from_mri.git
+   cd mri-predict_alzheimers_from_mri
    ```
 2. Install dependencies:
    ```bash
