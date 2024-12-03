@@ -5,7 +5,7 @@ This project focuses on building a deep learning model to classify MRI scans int
 
 ## **Project Overview**
 
-Medical imaging is a critical domain for applying deep learning, particularly for analyzing MRI scans. This project implements a **convolutional neural network (CNN)** using a pretrained **VGG16** model to classify MRI scans into four classes, enhancing the accuracy and efficiency of disease detection.
+Medical imaging is a critical domain for applying deep learning, particularly for analyzing MRI scans. This project implements a **convolutional neural network (CNN)** using a pretrained **VGG16** model to classify MRI scans into four classes.
 
 ---
 
@@ -41,49 +41,12 @@ Medical imaging is a critical domain for applying deep learning, particularly fo
    pip install -r requirements.txt
    ```
 
----
-
-## **How to Use**
-
-### 1. **Data Preprocessing**
-- Place MRI scan data in the `data/` directory.
-- Normalize and resize images using the preprocessing pipeline in the notebook.
-
-### 2. **Training the Model**
-- Run the `data_analysis.ipynb` notebook to train the model.
-- Use the `model.fit()` call to initiate training with data augmentation, Dropout, and L2 regularization.
-
-### 3. **Evaluation**
-- Evaluate the model on validation/test data.
-- Metrics like accuracy, precision, recall, and F1-score will be printed to the console.
-
----
-
 ## **Results**
 - **Model Performance**:
   - Validation accuracy: **X%**
   - Precision/Recall: **X% / X%**
 - **Confusion Matrix**:
   Visualized in the notebook to assess class-wise performance.
-
----
-
-## **File Structure**
-```
-mri-classification/
-├── data/                         # Directory for MRI scan data
-├── data_analysis.ipynb           # Jupyter Notebook with model implementation
-├── requirements.txt              # List of Python dependencies
-├── README.md                     # Project documentation
-└── model/                        # Directory to save trained models
-```
-
----
-
-## **Future Work**
-- Explore other pretrained architectures like ResNet or EfficientNet for comparison.
-- Fine-tune the VGG16 base layers to capture domain-specific features.
-- Experiment with larger MRI datasets and unsupervised pretraining methods.
 
 ---
 
