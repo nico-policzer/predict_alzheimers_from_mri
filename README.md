@@ -50,7 +50,7 @@ Medical imaging is a critical domain for applying deep learning, particularly fo
 
 ### 2. **Training the Model**
 - Run the `data_analysis.ipynb` notebook to train the model.
-- Use the `model.fit()` call to initiate training with data augmentation, Dropout, and L2 regularization.
+- Use the `model.fit()` call to initiate training with data augmentation, and L2 regularization.
 
 ### 3. **Evaluation**
 - Evaluate the model on validation/test data.
@@ -60,17 +60,18 @@ Medical imaging is a critical domain for applying deep learning, particularly fo
 
 ## **Results**
 - **Model Performance**:
-  - Validation accuracy: **X%**
-  - Precision/Recall: **X% / X%**
+  - Validation accuracy: **77%**
+  - Precision/Recall: **73% / 74%**
 - **Confusion Matrix**:
   Visualized in the notebook to assess class-wise performance.
 
 ---
+## **Limitations**
+- Dataset had very few mild Alzheimers examples, so model did never predicted mild
 
 ## **File Structure**
 ```
 mri-classification/
-├── data/                         # Directory for MRI scan data
 ├── data_analysis.ipynb           # Jupyter Notebook with model implementation
 ├── requirements.txt              # List of Python dependencies
 ├── README.md                     # Project documentation
