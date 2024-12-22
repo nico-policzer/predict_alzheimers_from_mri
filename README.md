@@ -42,22 +42,6 @@ Medical imaging is a critical domain for applying deep learning, particularly fo
 
 ---
 
-## **How to Use**
-
-### 1. **Data Preprocessing**
-- Place MRI scan data in the `data/` directory.
-- Normalize and resize images using the preprocessing pipeline in the notebook.
-
-### 2. **Training the Model**
-- Run the `data_analysis.ipynb` notebook to train the model.
-- Use the `model.fit()` call to initiate training with data augmentation, and L2 regularization.
-
-### 3. **Evaluation**
-- Evaluate the model on validation/test data.
-- Metrics like accuracy, precision, recall, and F1-score will be printed to the console.
-
----
-
 ## **Results**
 - **Model Performance**:
   - Validation accuracy: **77%**
