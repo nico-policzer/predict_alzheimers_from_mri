@@ -12,10 +12,9 @@ Medical imaging is a critical domain for applying deep learning, particularly fo
 ## **Key Features**
 - **Model Architecture**:
   - VGG16 pretrained on ImageNet as the base model.
-  - Custom dense head with Dropout and L2 regularization to improve performance.
+  - Custom dense head with L2 regularization to improve performance.
 - **Data Preprocessing**:
   - MRI scans normalized to match VGG16 input requirements.
-  - Augmentation applied to simulate real-world variability (brightness shifts, rotations, zoom).
 - **Evaluation Metrics**:
   - Accuracy, precision, recall, F1-score, and confusion matrix.
 - **Tools and Frameworks**:
@@ -77,13 +76,6 @@ mri-classification/
 ├── README.md                     # Project documentation
 └── model/                        # Directory to save trained models
 ```
-
----
-
-## **Future Work**
-- Explore other pretrained architectures like ResNet or EfficientNet for comparison.
-- Fine-tune the VGG16 base layers to capture domain-specific features.
-- Experiment with larger MRI datasets and unsupervised pretraining methods.
 
 ---
 
