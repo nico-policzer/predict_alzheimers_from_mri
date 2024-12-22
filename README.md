@@ -5,7 +5,7 @@ This project focuses on building a deep learning model to classify MRI scans int
 
 ## **Project Overview**
 
-Medical imaging is a critical domain for applying deep learning, particularly for analyzing MRI scans. This project implements a **convolutional neural network (CNN)** using a pretrained **VGG16** model to classify MRI scans into four classes, enhancing the accuracy and efficiency of disease detection.
+Medical imaging is a critical domain for applying deep learning, particularly for analyzing MRI scans. This project implements a **convolutional neural network (CNN)** using a pretrained **VGG16** model to classify MRI scans into four classes.
 
 ---
 
